@@ -5,6 +5,7 @@ module.exports = defineConfig({
     "video": false,
     "defaultCommandTimeout": 5000,
     "pageLoadTimeout": 10000,
-    "excludeSpecPattern": ["*.js", "*.md "]
+    "excludeSpecPattern": ["*.js", "*.md "],
+    "specPattern": "**/*.feature"
 }
 });
